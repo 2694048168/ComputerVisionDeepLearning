@@ -1,11 +1,5 @@
 ![CV&DIP Logo](./logo.jpg)
 
----------------------------------
-
-## Digital Image Processing
-## CS231N: Convolution Neural Network for Visual Recognition
-## Computer Vision
-
 --------------------------------
 
 **乍一看到某个问题，你会觉得很简单，其实你并没有理解其复杂性。当你把问题搞清楚之后，又会发现真的很复杂，于是你就拿出一套复杂的方案来。实际上，你的工作只做了一半，大多数人也都会到此为让...。但是，真正伟大的人还会继续向前，直至找到问题的关键和深层次原因，然后再拿出一个优雅的、堪称完美的有效方案。**
@@ -17,6 +11,20 @@
 	— Steve Jobs (quoted in Insanely Great: The Life and Times of Macintosh, the Computer that Changed Everything by Steven Levy)
 
 --------------------------------
+
+---------------------------------
+
+## Digital Image Processing
+
+## CS231N: Convolution Neural Network for Visual Recognition
+
+## Computer Vision
+
+## PyTorch Learning
+
+## TensorFlow 2.0 Learning
+
+
 
 ## About Author
 
