@@ -1,0 +1,40 @@
+{
+    "mode": "SISR",
+    "gpu_ids": [0],
+    "manual_seed": 42,
+    "scale": 4,
+    "degradation": "BI",
+    "is_train": false,
+    "use_chop": true,
+    "rgb_range": 255,
+    "self_ensemble": false,
+
+    "datasets": {
+        "test_Set5": {
+            "mode": "PAIRED",
+            "GroundTrues": "./dataset/HR/Set5/x4",
+            "InputImages": "./dataset/LR/LRBI/Set5/x4",
+            "data_type": "img"
+        },
+
+        "test_historical": {
+            "mode": "UNPAIRED",
+            "InputImages": "./dataset/historical",
+            "data_type": "img"
+        }
+
+    },
+
+    "networks": {
+        "which_model": "EDSR",
+        "num_features": 32,
+        "in_channels": 3,
+        "out_channels": 3,
+        "num_blocks": 3,
+        "res_scale": 0.1
+    },
+
+    "solver": {
+        "pretrained_path": "./experiments/EDSR_in3f32_x4/epochs/besk_ckp.pth"
+    }
+}

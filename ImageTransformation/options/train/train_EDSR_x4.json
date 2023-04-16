@@ -1,0 +1,58 @@
+{
+    "mode": "SISR",
+    "gpu_ids": [0],
+    "manual_seed": 42,
+    "scale": 4,
+    "is_train": true,
+    "use_chop": true,
+    "rgb_range": 255,
+    "self_ensemble": false,
+    "save_image": false,
+
+    "datasets": {
+        "train": {
+            "mode": "PAIRED",
+            "GroundTrues": "D:/ImageProcessingTeam/SuperResolutionAlgorithms/DIV2K_train_dataset/HR/raw_npy",
+            "InputImages": "D:/ImageProcessingTeam/SuperResolutionAlgorithms/DIV2K_train_dataset/LR/x4_raw_npy",
+            "data_type": "npy",
+            "num_workers": 0,
+            "batch_size": 16,
+            "input_img_size": 48,
+            "use_flip": true,
+            "use_rot": true,
+            "noise": "."
+        },
+        "val": {
+            "mode": "PAIRED",
+            "GroundTrues": "./dataset/HR/Set5/x4",
+            "InputImages": "./dataset/LR/LRBI/Set5/x4",
+            "data_type": "img"
+        }
+    },
+
+    "networks": {
+        "which_model": "EDSR",
+        "num_features": 32,
+        "in_channels": 3,
+        "out_channels": 3,
+        "num_blocks": 3,
+        "res_scale": 0.1
+    },
+
+    "solver": {
+        "optim_type": "ADAM",
+        "learning_rate": 0.0001,
+        "weight_decay": 0,
+        "learning_rate_scheme": "MultiStepLR",
+        "learning_rate_steps": [2, 4, 6, 8],
+        "learning_rate_gamma": 0.5,
+        "loss_type": "L1",
+        "num_epochs": 10,
+        "skip_threshold": 3,
+        "split_batch": 2,
+        "save_ckp_step": 50,
+        "save_vis_step": 1,
+        "pretrain": null,
+        "pretrained_path": "./experiments/EDSR_in3f32_x4/epochs/last_ckp.pth"
+    }
+}
