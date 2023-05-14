@@ -15,6 +15,17 @@ cd ComputerVisionDeepLearning/DatasetDataloader
 # if you want to download specical folder, please using 'gitzip' tool to enter
 # the folder path, such as 'https://github.com/2694048168/ComputerVisionDeepLearning/tree/main/DatasetDataloader'
 
+# create 'pytorch' env. with python 3.11.2
+conda create --name pytorch python=3.11.2
+
+conda activate pytorch
+
+# pip install all library
+pip install -r requirements.txt
+# python --version
+# python train.py
+
+conda deactivate
 ```
 
 > [gitzip](http://kinolien.github.io/gitzip/)

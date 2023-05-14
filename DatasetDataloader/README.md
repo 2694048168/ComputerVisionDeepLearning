@@ -14,6 +14,10 @@ conda activate pytorch
 
 # pip install all library
 pip install -r requirements.txt
+# python --version
+# python train.py
+
+conda deactivate
 ```
 
 **useful link**
