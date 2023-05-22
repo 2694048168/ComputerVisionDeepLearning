@@ -1,6 +1,6 @@
 ![CV&DIP Logo](./logo.jpg)
 
-> the Computer Vision with Python; Digital Image Processing with Python; the platform for Pytorch and TensorFlow2; OpenCV with Python and Cpp.
+> the Computer Vision with Python; Digital Image Processing with Python; the platform for Pytorch and TensorFlow2; OpenCV with Python and Cpp; the Pillow library.
 
 > [Wei Li Blog](https://2694048168.github.io/blog/)
 
@@ -32,7 +32,10 @@ conda deactivate
 
 ### Overview
 ```
-. Project_Name
+. ComputerVisionDeepLearning
+|—— pillow
+|   |—— image_gif.py
+|   |—— README.md
 |—— DatasetDataloader
 |   |—— datast
 |   |—— data.py
@@ -63,9 +66,15 @@ conda deactivate
 |—— README.md
 ```
 
+### **pillow**
+<details>
+<summary> <span style="color:PeachPuff">PIL(Python Imaging Library)是 Python 的第三方图像处理库, 由于其功能丰富, API 简洁易用; 在 PIL 库的基础上开发了一个支持 Python3 版本的图像处理库, Pillow.</span> </summary>
+
+</details>
+
 ### **DatasetDataloader**
 <details>
-<summary> <span style="color:PeachPuff">How to **organization** and **loading** data from disk via PyTorch by our custom way, Creating 'Dataset' feed into Model, e.g. the dataset pipeline and tricks. The Image Super-Resolution example, **Image Transformation Processing**, could be to promote the Low-Light Image Enhancementation, Image Deraining, Image Defogging, for creating Dataset and the whole pipeline.</span> </summary>
+<summary> <span style="color:PeachPuff">How to organization and loading data from disk via PyTorch by our custom way, Creating 'Dataset' feed into Model, e.g. the dataset pipeline and tricks. The Image Super-Resolution example, Image Transformation Processing, could be to promote the Low-Light Image Enhancementation, Image Deraining, Image Defogging, for creating Dataset and the whole pipeline.</span> </summary>
 
 **Dataset and Dataloader of PyTorch**
 
@@ -127,7 +136,7 @@ conda deactivate
 
 **ImageTransformation**
 <details>
-<summary> <span style="color:PeachPuff">Image transformation processing using Deep Learning technology with PyTorch platform, including the **image super-resolution** (SR), image deraining, image defogging or image dehaze, low-illumination image enhancement, infrared and visible image fusion, multi-exposure image fusion, remote sensing image fusion(Pansharpening). Image transformation processing tasks, which the input of network is a image and the output of network is also a image. The framework can be well extended to high-level computer vision processing tasks such as image classification, object detection, instance segmentation.</span> </summary>
+<summary> <span style="color:PeachPuff">Image transformation processing using Deep Learning technology with PyTorch platform, including the image super-resolution (SR), image deraining, image defogging or image dehaze, low-illumination image enhancement, infrared and visible image fusion, multi-exposure image fusion, remote sensing image fusion(Pansharpening). Image transformation processing tasks, which the input of network is a image and the output of network is also a image. The framework can be well extended to high-level computer vision processing tasks such as image classification, object detection, instance segmentation.</span> </summary>
 
 > [关于Python环境的详细配置过程以及技巧](https://2694048168.github.io/blog/#/PaperMD/python_env_ai)
 
