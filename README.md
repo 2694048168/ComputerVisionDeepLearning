@@ -1,8 +1,18 @@
 ![CV&DIP Logo](./logo.jpg)
 
-> the Computer Vision with Python; Digital Image Processing with Python; the platform for Pytorch and TensorFlow2; OpenCV with Python and Cpp; the Pillow library.
+> the Computer Vision with Python; Digital Image Processing with Python; the platform for Pytorch and TensorFlow2; OpenCV with Python and Cpp; the Pillow library; Qt for Python via PySide6.
 
 > [Wei Li Blog](https://2694048168.github.io/blog/)
+
+### **Features**
+- [x] Python & MiniConda & Pytorch & TensorFlow & VSCode & Pycharm
+- [x] Digital Image Processing with Python and C++ via OpenCV library
+- [x] Learning the core and basic of Pytorch for Deep Neural Network
+- [x] Learning the core and basic of TensorFlow for Deep Neural Network
+- [x] The basic image processing python library: Pillow
+- [x] The Dataset and Dataloader for DL in CV via Pytorch
+- [x] Image Processing pipeline template with DL tech. via Pytorch
+- [x] Qt for Python: PySide6 library
 
 ### Quick Start
 
