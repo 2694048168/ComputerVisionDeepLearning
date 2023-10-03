@@ -64,9 +64,19 @@ if __name__ == "__main__":
 """
 
 import sys
-from PySide6.QtWidgets import QApplication
+from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
 
-from button_holder import ButtonHolder
+# from button_holder import ButtonHolder
+class ButtonHolder(QMainWindow):
+    def __init__ (self, width=800, height=600):
+        super().__init__()
+        self.setWindowTitle("Button Holder")
+        self.resize(width, height)
+        button = QPushButton("Press Me!")
+
+        # Set up the button as our central widget
+        self.setCentralWidget(button)
+        
 
 # -----------------------------
 if __name__ == "__main__":
