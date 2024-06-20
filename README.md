@@ -1,10 +1,19 @@
 ![CV&DIP Logo](./logo.jpg)
 
-> the Computer Vision with Python; Digital Image Processing with Python; the platform for Pytorch and TensorFlow2; OpenCV with Python and Cpp; the Pillow library; Qt for Python via PySide6.
+> the Computer Vision with Python; Digital Image Processing with Python; the platform for Pytorch and TensorFlow2; OpenCV with Python and Cpp; the Pillow library; Qt for Python via PySide6. A picture is worth a thousand words for SCI paper.
 
 > [Wei Li Blog](https://2694048168.github.io/blog/)
 
 ### **Features**
+- [x] SCI paper figures
+	- 折线图,散点图,条形图,热力图,箱线图,蜘蛛图,双轴图,面积图,带状图,等高线图,极坐标图
+	- 3D曲面图,3D散点图,3D条形图,直方图,小提琴图,成对关系图,Facet Grid 图
+
+<center class="half">
+<img src="SCI_plotFigures/images/scatter_figure.png" width=400/>
+<img src="SCI_plotFigures/images/violin_figure.png" width=400/>
+</center>
+
 - [x] Python & MiniConda & Pytorch & TensorFlow & VSCode & Pycharm
 - [x] Digital Image Processing with Python and C++ via OpenCV library
 - [x] Learning the core and basic of Pytorch for Deep Neural Network
