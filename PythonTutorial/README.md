@@ -13,3 +13,8 @@
 - tutorial 07: 人工智能——卷积神经网络的本质理解之图像滤波操作
 - tutorial 08: 图像边缘检测之拉普拉斯算子,水墨效果的边缘图
 - tutorial 09: 数字图像处理+卷积神经网络: 图像超分辨率重建 SRCNN
+
+
+### Reference
+- [SRCNN weights on Google Driver](https://drive.google.com/drive/folders/1Bq0-k-VxJ68q7_S5Zlq8wncN0IhB6YsC)
+- [SRCNN weights on Baidu Driver](https://pan.baidu.com/s/1yNs4rqIb004-NKEdKBJtYg?pwd=llot#list/path=%2F)
