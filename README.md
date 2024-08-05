@@ -5,6 +5,10 @@
 > [Wei Li Blog](https://2694048168.github.io/blog/)
 
 ### **Features**
+- [x] Python Logging Module for Application
+	- level and log-file
+	- 封装 python logging 模块, 根据功能需求存储不同日志文件
+	- 自动按照时间或文件大小进行分割日志文件
 - [x] SCI paper figures
 	- 折线图,散点图,条形图,热力图,箱线图,蜘蛛图,双轴图,面积图,带状图,等高线图,极坐标图
 	- 3D曲面图,3D散点图,3D条形图,直方图,小提琴图,成对关系图,Facet Grid 图
