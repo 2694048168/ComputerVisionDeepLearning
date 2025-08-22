@@ -3,6 +3,9 @@
 > the modern AI & Python tutorial for beginner
 
 ### Context of Repo.
+- core: Python 核心理解
+    - 构造函数, Python常规包和命名空间包
+    - Python项目包的版本管理: .venv(解决环境依赖问题) ---> requirements.txt ---> pyproject.toml ---> UV/Poetry/PDM 工具
 - tutorial 00: 测试本地主机的 Python 环境配置
 - tutorial 01: 利用 pip 安装 Python 的第三方库
 - tutorial 02: 利用 OpenCV 图像处理库加载并读取本地图像
