@@ -1,0 +1,13 @@
+{
+  "software_name": "ComputerMonitor",
+  "software_description": "The Computer Performance Monitor for Industrial Vision",
+  "major_version": 1,
+  "minor_version": 2,
+  "patch_version": 0,
+  "timestamp": "20250815-222057",
+  "software_version": "ComputerMonitor-V1.0.0-20250815-222057",
+  "author": "WeiLi(Ithaca)",
+  "maintainer": "WeiLi(Ithaca)",
+  "company": "WeiLi-Ithaca.com",
+  "copyright": "Copyright @ 2025 WeiLi(Ithaca). All Rights Reserved."
+}
