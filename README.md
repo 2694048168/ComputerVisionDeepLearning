@@ -26,6 +26,7 @@
 - [x] The Dataset and Dataloader for DL in CV via Pytorch
 - [x] Image Processing pipeline template with DL tech. via Pytorch
 - [x] Qt for Python: PySide6 library
+- [x] PowerShell: PowerShell Script
 
 ### Quick Start
 
