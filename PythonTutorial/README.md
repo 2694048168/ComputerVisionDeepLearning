@@ -17,6 +17,7 @@
 - tutorial 08: 图像边缘检测之拉普拉斯算子,水墨效果的边缘图
 - tutorial 09: 数字图像处理+卷积神经网络: 图像超分辨率重建 SRCNN
 - tutorial 12: 数字图像处理之形态学操作
+- tutorial 13: 数字图像处理之工业缺陷检测
 
 
 ### Reference
