@@ -18,6 +18,8 @@
 - tutorial 09: 数字图像处理+卷积神经网络: 图像超分辨率重建 SRCNN
 - tutorial 12: 数字图像处理之形态学操作
 - tutorial 13: 数字图像处理之工业缺陷检测
+- tutorial 14: 现代Python之日志记录
+- tutorial 15: 现代Python之日志 loguru
 
 
 ### Reference
