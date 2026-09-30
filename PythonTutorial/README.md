@@ -20,6 +20,10 @@
 - tutorial 13: 数字图像处理之工业缺陷检测
 - tutorial 14: 现代Python之日志记录
 - tutorial 15: 现代Python之日志 loguru
+- tutorial 16: 现代Python之函数封装
+- tutorial 17: 现代Python之类封装
+- tutorial 18: 现代Python之读写操作JSON和文件保存
+- tutorial 19: 现代Python之数据库SQLite增删改查
 
 
 ### Reference
