@@ -26,6 +26,8 @@
 - tutorial 19: 现代Python之数据库SQLite增删改查
 - tutorial 20: 现代Python之MongoDB非关系型数据库
 - tutorial 21: 现代Python之文件和路径相关操作
+- tutorial 22: 现代Python高级特性之切片、迭代
+- tutorial 23: 现代Python高级特性之列表生成式、生成器、迭代器
 
 
 ### Reference
