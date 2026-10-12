@@ -28,6 +28,9 @@
 - tutorial 21: 现代Python之文件和路径相关操作
 - tutorial 22: 现代Python高级特性之切片、迭代
 - tutorial 23: 现代Python高级特性之列表生成式、生成器、迭代器
+- tutorial 24: 现代Python函数式编程之高阶函数 map、reduce、filter和sorted
+- tutorial 25: 现代Python函数式编程之匿名函数Lambda和装饰器Decorator
+- tutorial 26: 现代Python多进程和多线程
 
 
 ### Reference
