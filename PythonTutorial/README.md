@@ -29,8 +29,11 @@
 - tutorial 22: 现代Python高级特性之切片、迭代
 - tutorial 23: 现代Python高级特性之列表生成式、生成器、迭代器
 - tutorial 24: 现代Python函数式编程之高阶函数 map、reduce、filter和sorted
-- tutorial 25: 现代Python函数式编程之匿名函数Lambda和装饰器Decorator
-- tutorial 26: 现代Python多进程和多线程
+- tutorial 25: 现代Python数据分析和可视化
+- tutorial 26: 现代Python函数式编程之匿名函数Lambda和装饰器Decorator
+- tutorial 27: 现代Python多进程和多线程
+- tutorial 28: 现代Python正则表达式
+- tutorial 29: 现代Python网络编程TCP/IP
 
 
 ### Reference
