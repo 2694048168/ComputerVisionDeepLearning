@@ -34,6 +34,7 @@
 - tutorial 27: 现代Python多进程和多线程
 - tutorial 28: 现代Python正则表达式
 - tutorial 29: 现代Python网络编程TCP/IP
+- tutorial 30: 现代Python编程之拼接多个PDF文件
 
 
 ### Reference
