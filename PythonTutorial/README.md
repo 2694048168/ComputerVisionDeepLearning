@@ -35,6 +35,7 @@
 - tutorial 28: 现代Python正则表达式
 - tutorial 29: 现代Python网络编程TCP/IP
 - tutorial 30: 现代Python编程之拼接多个PDF文件
+- tutorial 31: 现代Python之夜景图像增强处理
 
 
 ### Reference
